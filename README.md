@@ -1,0 +1,1 @@
+# Cleaned-Smartphones-Human-Activity-Recognition-Data-Set-
