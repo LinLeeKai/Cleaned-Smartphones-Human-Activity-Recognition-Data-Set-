@@ -10,7 +10,6 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
  
 The cleaned data set used the following raw data sets:
 
-=========================================
 - 'features.txt': List of all features.
 - 'activity_labels.txt': Links the class labels with their activity name.
 - 'train/X_train.txt': Training set.
@@ -19,7 +18,7 @@ The cleaned data set used the following raw data sets:
 - 'test/y_test.txt': Test labels.
 - 'train/subject_train.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
 - 'test/subject_test.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
-===========================================
+
 
 First of all, training and test data sets (X_train.txt, X_test.txt) were combined. And the column names are imported from features.txt. Secondly, only columns of mean and standard deviation for each measurement were kept. Thirdly, subject identifiers were written in from subject_train.txt and subject_test.txt. Activity labels were merged in the data from y_train.txt and y_test.txt and matched with activity names from activity_labels.txt. Lastly column names were tidied. The final data set is 
 
